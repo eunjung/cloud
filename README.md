@@ -1,7 +1,8 @@
 # 클라우드  
 
 ## 스터디 사항
-### osd 공용공간 : github, https://github.com/OSD-STUDY
+- osd 공용공간 : github, https://github.com/OSD-STUDY
+- stack url : 
 ### 방향
 - 프로젝트 -> 도커/쿠버네이티스 -> 서버 / 클라우드 서버
 1. 흐름살펴보기
