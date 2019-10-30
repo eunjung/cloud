@@ -12,7 +12,9 @@
 3. 쿠버네이티스
 
 ## 진행
-### [도커이미지만드는 방법](./docker/image_maker.md)
+1. [도커간단히 써보기](simple_docker.md)
+2. [도커이미지만드는 방법](./docker/image_maker.md)
+3. 도커 컴포즈, 도커 볼륨
 
 # 단어
 
