@@ -194,7 +194,7 @@ inspect로 도커가 어떻게 구성되어있는지 볼수 있다.
 
 ---
 
-* 쉘 : 파워라인
+* 쉘 : [파워라인](https://beomi.github.io/2017/07/07/Beautify-ZSH/)
 * Quiver
 * 젠킨스 X
     > 도커 기반
