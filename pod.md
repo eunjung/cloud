@@ -113,7 +113,7 @@ kubectl describe pod myapp-pod
 
 #### 포드 만들어보기
 
-nodejs-pod.yaml
+nodejs-manual.yaml
 
 ```yaml
 apiVersion: v1
@@ -129,6 +129,11 @@ spec:
       protocol: TCP
 ```
 
+GCP에 접속 하셔서 위 파일을 vi를 이용해서 생성하신 다음에 아래의 명령을 실행해주세요.
+
+```bash
+$kubectl create -f nodejs-manual.yaml
+```
 #### 포드 포트포워딩 하기
 
 ```
