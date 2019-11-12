@@ -72,6 +72,8 @@ CMD [ "node", "server.js" ]
 $ docker build -t dev2ranger/node-web-app .
 $ docker build -t [본인계정명]/node-web-app .
 
+$ docker push dev2ranger/node-web-app
+$ docker push [본인계정명]/node-web-app
 ```
 
 ## POD
