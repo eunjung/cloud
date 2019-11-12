@@ -70,6 +70,7 @@ CMD [ "node", "server.js" ]
 
 ```bash
 $ docker build -t dev2ranger/node-web-app .
+$ docker build -t [본인계정명]/node-web-app .
 
 ```
 
@@ -79,11 +80,12 @@ $ docker build -t dev2ranger/node-web-app .
 
 #### 포드 예제
 
-```xml
+myapp-pod.yaml
+```yaml
 apiVersion: v1
 kind: Pod
 metadata:
-  name: myapp-pod2
+  name: myapp-pod
   labels:
     app: myapp
 spec:
@@ -106,7 +108,7 @@ kubectl describe pod myapp-pod
 
 nodejs-pod.yaml
 
-```
+```yaml
 apiVersion: v1
 kind: Pod
 metadata:
