@@ -68,7 +68,7 @@ EXPOSE 8080
 CMD [ "node", "server.js" ]
 ```
 
-```bash
+```shell
 $ docker build -t dev2ranger/node-web-app .
 $ docker build -t [본인계정명]/node-web-app .
 
