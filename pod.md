@@ -174,6 +174,39 @@ kubectl logs nodejs-manual
 
 YAML을 사용하여 도커이미지 jenkins로 Jenkins-manual 포드를 생성하기 데헷!
 
+- jenkins-manual-pod.yaml
+
+```
+apiVersion: v1
+kind: Pod
+metadata:
+name: jenkins-manual
+spec:
+containers:
+- image: jenkins
+  name: jenkins
+  ports: - containerPort: 8080
+  protocol: TCP
+```
+
+Jenkins 포드에서 curl 명령어로 로컬호스트:8080 접속하기
+
+```
+kubectl exec -it jenkins-manual -- curl 127.0.0.1:8080
+```
+
+Jenkins 포트를 8888로 포트포워딩하기
+
+```
+kubectl port-forward jenkins-manual 8888:8080 &
+```
+
+현재 Jenkins-manual의 설정을 yaml로 출력하기
+
+```
+kubectl get pod jenkins-manual -o yaml
+```
+
 # 레이블과 셀렉터
 
 ### 레이블 있는 포드 생성
