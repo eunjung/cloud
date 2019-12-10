@@ -3,7 +3,7 @@
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" target="_blank" />
   </a>
 
-# [POD](https://kubernetes.io/ko/docs/concepts/workloads/pods/pod-overview/)
+# [POD](https://kubernetes.io/ko/docs/concepts/workloads/pods/pod-overview/) 
 
  :bulb: 파드는 쿠버네티스 애플리케이션의 기본 실행 단위이다. 쿠버네티스 객체 모델 중 만들고 배포할 수 있는 가장 작고 간단한 단위이다.
 
